@@ -1,4 +1,48 @@
-# LINK DO DEPLOY
+# Link do Deploy: 
+(https://zaprecall-ashy.vercel.app/)
+
+# ZapRecall
+
+ZapRecall é uma ferramenta de estudo interativa baseada no conceito de flashcards. O projeto é ideal para estudantes que estão se preparando para provas, exames ou processos seletivos. O objetivo é ajudar os usuários a testar seu conhecimento em diversos tópicos, permitindo-lhes responder perguntas mentalmente e então verificar se lembraram corretamente da informação.
+
+## Como Funciona
+
+O ZapRecall apresenta uma série de cartões (cards), cada um contendo uma pergunta. Para cada pergunta, o usuário deve tentar lembrar a resposta correta sem visualizá-la. Após tentar responder, o usuário pode revelar a resposta e selecionar uma das seguintes opções:
+
+- **Imediatamente:** Se lembrou da resposta corretamente sem hesitação.
+- **Quase não lembrei:** Se lembrou da resposta, mas com alguma dificuldade.
+- **Não lembrei:** Não conseguiu lembrar da resposta.
+
+Essas interações ajudam os usuários a medir sua retenção de informações e identificar áreas que precisam de mais revisão.
+
+## Como Usar
+
+Para usar o ZapRecall, siga os passos abaixo:
+
+1. Clone ou baixe o repositório do projeto.
+2. Abra o arquivo `CARDS.js` localizado na pasta `/src/data`.
+3. Modifique o array de objetos neste arquivo para incluir suas próprias perguntas e respostas. Cada objeto deve ter o seguinte formato:
+   
+{
+  question: "Sua pergunta aqui?",
+  answer: "Resposta para a pergunta"
+}
+
+4. Salve as alterações e execute o projeto localmente para começar a usar.
+
+## Tecnologias Utilizadas
+
+- React.js
+- Styled Components
+
+## Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar o ZapRecall, sinta-se à vontade para fork o repositório e enviar um pull request com suas modificações. Você também pode abrir uma issue para discutir mudanças que gostaria de ver implementadas.
+
+## Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes ou visite [MIT License](https://opensource.org/licenses/MIT).
+
 
 # Getting Started with Create React App
 
