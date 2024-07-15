@@ -154,7 +154,7 @@ const Card = ({ id, question, answer, onFinishCard }) => {
         </StyledOptionsContainer>
       </CardAnswer>
       <CardFinish show={screen === 4} textColor={finishColor}>
-        <div>Card Finish</div>
+        <div>Pergunta {id}</div>
         <img src={finishIcon} alt="result icon" />
       </CardFinish>
     </div>
